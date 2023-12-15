@@ -6,7 +6,6 @@ import { v4 as uuid } from 'uuid';
 export default class ActivityStore {
 
     activityRegistry = new Map<String,Activity>();
-
     selectedActivity: Activity | undefined = undefined;
     editMode = false;
     loading = false;
